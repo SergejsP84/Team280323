@@ -6,3 +6,5 @@ LEFT JOIN Orders ON Employees.EmployeeID = Orders.EmployeeID
 GROUP BY Employees.EmployeeID
 ORDER BY  total_orders DESC
 LIMIT 3;
+
+Task 2. Вывести клиента с наибольшим ко-вом заказов
